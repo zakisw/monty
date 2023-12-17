@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
- * my_push - add node to the stack
+ * my_push - adding a node to the stack
  * @head: stack head
- * @count: line_number
- * Return: no return
+ * @count: line_num
+ * Return: nothing
 */
 void my_push(stack_t **head, unsigned int count)
 {
@@ -15,7 +15,7 @@ void my_push(stack_t **head, unsigned int count)
 			i++;
 		for (; bus.arg[i] != '\0'; i++)
 		{
-			if (57 < bus.arg[i] < 48)
+			if (bus.arg[i] > 57 || bus.arg[i] < 48)
 				flg = 1; }
 		if (flg == 1)
 		{ fprintf(stderr, "L%d: usage: push integer\n", count);
