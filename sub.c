@@ -2,11 +2,12 @@
 /**
   *f_sub- does sustration
   *@head: stack head
-  *@counter: line_num
+  *@count: line_num
   *Return: nothing
  */
 void f_sub(stack_t **head, unsigned int count)
 {
+	bus_t bus = {NULL, NULL, NULL, 0};
 	stack_t *aux;
 	int sus, nodes;
 

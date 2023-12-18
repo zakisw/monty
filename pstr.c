@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
  * f_pstr - prints the string with order : start at the top of the stack,
- * followed by a new 
+ * followed by a new
  * @head: stack head
- * @counter: line_num
+ * @count: line_num
  * Return: nothing
 */
 void f_pstr(stack_t **head, unsigned int count)

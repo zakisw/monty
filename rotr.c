@@ -2,7 +2,7 @@
 /**
   *f_rotr- rotates the stack in order: to the bottom
   *@head: stack head
-  *@counter: line_num
+  *@count: line_num
   *Return: nothing
  */
 void f_rotr(stack_t **head, __attribute__((unused)) unsigned int count)

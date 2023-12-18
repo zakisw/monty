@@ -2,19 +2,20 @@
 /**
  * f_add - adds the stack's top two elements.
  * @head: stack head
- * @counter: line_num
+ * @count: line_num
  * Return: nothing
 */
 void f_add(stack_t **head, unsigned int count)
 {
+	bus_t bus = {NULL, NULL, NULL, 0};
 	stack_t *h;
 	int len = 0, aux;
 
 	h = *head;
 	do {
-                h = h->next;
-                len++;
-        } while (h);
+		h = h->next;
+		len++;
+	} while (h);
 	if (len < 2)
 	{
 		fprintf(stderr, "L%d: can't add, stack too short\n", count);

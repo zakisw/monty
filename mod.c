@@ -8,6 +8,7 @@
 */
 void f_mod(stack_t **head, unsigned int count)
 {
+	bus_t bus = {NULL, NULL, NULL, 0};
 	stack_t *h;
 	int len = 0, aux;
 
