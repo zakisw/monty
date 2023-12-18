@@ -1,5 +1,4 @@
 #include "monty.h"
-extern bus_t bus;
 bus_t bus = {NULL, NULL, NULL, 0};
 /**
 * main - monty code interpreter

@@ -7,7 +7,6 @@
 */
 void f_push(stack_t **head, unsigned int count)
 {
-	bus_t bus = {NULL, NULL, NULL, 0};
 	int n, i = 0, flg = 0;
 
 	if (bus.arg)

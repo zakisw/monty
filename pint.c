@@ -7,7 +7,6 @@
 */
 void f_pint(stack_t **head, unsigned int count)
 {
-	bus_t bus = {NULL, NULL, NULL, 0};
 	if (*head == NULL)
 	{
 		fprintf(stderr, "L%u: can't pint, stack empty\n", count);

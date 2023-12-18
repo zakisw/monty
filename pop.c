@@ -7,7 +7,6 @@
 */
 void f_pop(stack_t **head, unsigned int count)
 {
-	bus_t bus = {NULL, NULL, NULL, 0};
 	stack_t *h;
 
 	if (*head == NULL)
