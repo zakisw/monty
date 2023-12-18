@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_swap - adds the stack's top two elements.
+ * f_swap - adds the stack top two elements.
  * @head: stack head
  * @count: line_num
  * Return: nothing
@@ -11,10 +11,11 @@ void f_swap(stack_t **head, unsigned int count)
 	int len = 0, aux;
 
 	h = *head;
-	do {
+	while (h)
+	{
 		h = h->next;
 		len++;
-	} while (h);
+	}
 	if (len < 2)
 	{
 		fprintf(stderr, "L%d: can't swap, stack too short\n", count);
