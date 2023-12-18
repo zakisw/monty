@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * mu_queue - does print the top
+ * f_queue - does print the top
  * @head: stack head
  * @counter: line_num
  * Return: nothing
 */
-void my_queue(stack_t **head, unsigned int count)
+void f_queue(stack_t **head, unsigned int count)
 {
 	(void)head;
 	(void)count;

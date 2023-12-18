@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * my_swap - adds the stack's top two elements.
+ * f_swap - adds the stack's top two elements.
  * @head: stack head
  * @count: line_num
  * Return: nothing
 */
-void my_swap(stack_t **head, unsigned int count)
+void f_swap(stack_t **head, unsigned int count)
 {
         stack_t *h;
         int len = 0, aux;

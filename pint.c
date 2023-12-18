@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * my_pint - printing the top
+ * f_pint - printing the top
  * @head: stack head
  * @count: line_num
  * Return: nothing
 */
-void my_pint(stack_t **head, unsigned int count)
+void f_pint(stack_t **head, unsigned int count)
 {
 	if (*head == NULL)
 	{
