@@ -2,7 +2,7 @@
 /**
  * f_mul - does multiplication of the top two elements of the stack.
  * @head: stack head
- * @counter: line_num
+ * @count: line_num
  * Return: nothing
 */
 void f_mul(stack_t **head, unsigned int count)

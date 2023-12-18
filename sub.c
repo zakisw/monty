@@ -7,7 +7,6 @@
  */
 void f_sub(stack_t **head, unsigned int count)
 {
-	bus_t bus = {NULL, NULL, NULL, 0};
 	stack_t *aux;
 	int sus, nodes;
 

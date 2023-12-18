@@ -23,6 +23,7 @@ typedef struct stack_s
 	struct stack_s *prev;
 	struct stack_s *next;
 } stack_t;
+
 /**
  * struct bus_s - variables -args, file, line content
  * @arg: value
